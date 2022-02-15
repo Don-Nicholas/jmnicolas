@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="max-w-4xl mx-auto p-5">
+    <div className="max-w-6xl mx-auto p-5">
       {/* Navigation */}
       <nav className="grid grid-cols-2 md:grid-cols-3 md:m-10">
         <div className="">
@@ -24,16 +24,16 @@ export default function Home() {
         </div>
       </nav>
       {/* landing page */}
-      <div className="max-w-4xl mx-auto ">
+      <div className="max-w-4xl ">
         <img src="/images/nicolas2.jpg" alt="" className="mx-auto md:w-80 w-60 block md:hidden" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl">
-          <div className="mb-5">
-            <h1 className="font-bold md:text-2xl text-xl my-3"> Freelancer and Full Stack Developer</h1>
-            <h3 className="text-md md:text-xl">A 22 year old student seeking to enchance skills in software development in Norther Mindanao, Philippines.</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl md:flex md:items-stretch">
+          <div className="mb-5 self-center">
+            <h1 className="font-bold md:text-6xl text-xl my-3"> Freelancer and Full Stack Developer</h1>
+            <h3 className="text-md md:text-2xl">A 22 year old student seeking to enchance skills in software development in Norther Mindanao, Philippines.</h3>
           </div>
           <div>
-            <img src="/images/jmnicolas.png" alt="" className="hidden md:block" />
+            <img src="/images/jmnicolas.png" alt="" className="hidden md:block md:ml-60 md:w-96 w-60" />
           </div>
         </div>
       </div>
