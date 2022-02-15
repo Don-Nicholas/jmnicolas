@@ -27,7 +27,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto ">
         <img src="/images/nicolas2.jpg" alt="" className="mx-auto md:w-80 w-60 block md:hidden" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 m-10 max-w-4xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl">
           <div className="mb-5">
             <h1 className="font-bold md:text-2xl text-xl my-3"> Freelancer and Full Stack Developer</h1>
             <h3 className="text-md md:text-xl">A 22 year old student seeking to enchance skills in software development in Norther Mindanao, Philippines.</h3>
@@ -39,7 +39,7 @@ export default function Home() {
       </div>
 
       {/* Recent Projects */}
-      <div className="grid grid-cols-1 md:grid-cols-2 m-10 max-w-4xl my-5 md:my-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 max-w-4xl my-5 md:my-10">
         <div className="md:my-5 my-3">
           <h1 className="md:text-5xl md:mb-5 mb-3 text-3xl font-bold">Recent Projects</h1>
           <h3 className="text-xl ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, quam sed in exercitationem dolores inventore consectetur?</h3>
